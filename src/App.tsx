@@ -1,3 +1,5 @@
+import logoUrl from '../logo.png';
+
 type EventCard = {
   title: string;
   date: string;
@@ -64,7 +66,7 @@ function App() {
         <section className="relative min-h-screen overflow-hidden bg-[#050507] px-0 pb-12 pt-4">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgba(255,255,255,0.12)_1px,transparent_0)] bg-[size:18px_18px] opacity-35" />
           <img
-            src="/logo.png"
+            src={logoUrl}
             alt="BotLeague arena background"
             className="absolute inset-0 h-full w-full object-cover object-center"
           />
